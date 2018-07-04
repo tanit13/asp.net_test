@@ -11,7 +11,8 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Console.Out.WriteLine("");
+            Console.Out.WriteLine("1");
+            Console.Out.WriteLine("2");
         }
     }
 }

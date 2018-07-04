@@ -23,7 +23,9 @@ namespace WebApplication1
 
                     var ssh_cmd = client.RunCommand("ls -l");
 
-                   // lt_show.Text = client.RunCommand("ls -l").Result;
+                    // lt_show.Text = client.RunCommand("ls -l").Result;
+
+                    Console.Out.WriteLine("");
 
                     var ssh_command = client.CreateCommand("ls -l");
 
